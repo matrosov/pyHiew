@@ -12,7 +12,7 @@ import hashlib, httplib, mimetypes, os, pprint, simplejson, sys, urlparse
 DEFAULT_TYPE = 'application/octet-stream'
 FILE_REPORT_URL = 'https://www.virustotal.com/api/get_file_report.json'
 SCAN_URL = 'https://www.virustotal.com/api/scan_file.json'
-API_KEY = "2e902c2db6abb00b374abfcb5eaac91dc54498cfe0a214934b0437e6a23eaee2"
+API_KEY = "KEY"
 
 def _encode_multipart_formdata(fields, files=()):
     BOUNDARY = '----------ThIs_Is_tHe_bouNdaRY_$'
